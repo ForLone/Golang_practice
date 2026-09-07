@@ -5,10 +5,15 @@ import (
 	"fmt"
 	"study/feature_postgres/simple_connection"
 	"study/feature_postgres/simple_sql"
-
-	// "github.com/k0kubun/pp"
-	// "time"
 )
+
+// "context"
+// "fmt"
+// "study/feature_postgres/simple_connection"
+// "study/feature_postgres/simple_sql"
+
+// "github.com/k0kubun/pp"
+// "time"
 
 
 
@@ -41,9 +46,17 @@ func main() {
  	// 	}
 		
 	// }
-	if err := simple_sql.AlterTable(ctx, conn); err != nil{
-		panic(err)
-	}
+	// if err := simple_sql.AlterTable(ctx, conn); err != nil{
+	// 	panic(err)
+	// }
 
 	fmt.Println("success")
+	// ss := "phone_number"
+	// val := os.Getenv(ss)
+	// fmt.Println(os.Environ())
+	// if val != ""{
+	// 	fmt.Println("val:", val)
+	// } else {
+	// 	fmt.Println("Не задана переменная", ss)
+	// }
 }
